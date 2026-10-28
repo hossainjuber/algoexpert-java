@@ -1,0 +1,22 @@
+# Ignore everything at the root unless explicitly allowed
+/*
+!/.gitignore
+!/README.md
+!/src/
+
+# Allow only the AlgoExpert source folder
+/src/*
+!/src/main/
+/src/main/*
+!/src/main/java/
+/src/main/java/*
+!/src/main/java/AlgoExpert/
+
+# Exclude generated files and IDE settings
+*.class
+.idea/
+*.iml
+.DS_Store
+out/
+target/
+build/
